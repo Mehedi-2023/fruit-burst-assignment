@@ -54,12 +54,14 @@
                
     
                     <!-- logo content -->
-                    <div class="navbar-start text-center flex-1 order-first">
-                      <img src="./images/logo.png" alt="">
-                      <a class="btn btn-ghost normal-case text-xl">FruitBurst</a>
-                    </div>
+                    <div class="navbar-center text-center flex-1 sm:order-first">
+                        <img src="./images/logo.png" alt="">
+                        <a class="btn btn-ghost normal-case text-4xl">FruitBurst</a>
+                      </div>
+                  
+
                     <!-- search content -->
-                    <div class=" navbar-end flex-1 md:hidden lg:hidden ">
+                    <div class=" navbar-end flex-1 sm:hidden">
                         <div class="form-control flex items-center">
                             <input type="text" placeholder="Search" class="input input-bordered  w-5 md:w-auto"  />
     
@@ -72,6 +74,119 @@
                   
             </nav>
 
+
+            <!-- banner section-->
+            <section class="py-10 relative ">
+                <!-- carousel + hero  -->
+                <div class="carousel w-full ">
+                  <!-- slider-1 -->
+                  <div id="slide1" class="carousel-item relative w-full">
+                    <!-- add a hero section -->
+                    <div class="hero min-h-screen" style="background-image: url(/images/banner1.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md space-y-4">
+                        <h1 class=" text-4xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                        <p class="text-sm">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of the hero section -->
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide4" class="btn btn-circle">❮</a> 
+                      <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                  </div> 
+                  <!-- slider-2 -->
+                  <div id="slide2" class="carousel-item relative w-full">
+                     <!-- add a hero section -->
+                     <div class="hero min-h-screen" style="background-image: url(/images/banner2.png);">
+                      <div class="hero-overlay bg-opacity-60"></div>
+                      <div class="hero-content text-center text-neutral-content">
+                        <div class="max-w-md space-y-4">
+                          <h1 class=" text-4xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                          <p class="text-sm">We supply highly quality organic products</p>
+                          <button class="btn bg-[#F85559] text-white border-none">Shop Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of the hero section -->
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide1" class="btn btn-circle">❮</a> 
+                      <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                  </div> 
+                  <!-- slider-3 -->
+                  <div id="slide3" class="carousel-item relative w-full">
+                    <!-- add a hero section -->
+                    <div class="hero min-h-screen" style="background-image: url(/images/banner3.png);">
+                      <div class="hero-overlay bg-opacity-60"></div>
+                      <div class="hero-content text-center text-neutral-content">
+                        <div class="max-w-md space-y-4">
+                          <h1 class=" text-4xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                          <p class="text-sm">We supply highly quality organic products</p>
+                          <button class="btn bg-[#F85559] text-white border-none">Shop Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of the hero section -->
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide2" class="btn btn-circle">❮</a> 
+                      <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                  </div> 
+                  <!-- slider-4 -->
+                  <div id="slide4" class="carousel-item relative w-full">
+                  <!-- add a hero section -->
+                  <div class="hero min-h-screen w-full" style="background-image: url(/images/banner4.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-md space-y-4">
+                        <h1 class=" text-4xl font-bold">Exotic tastes at your <br>doorstep</h1>
+                        <p class="text-sm">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of the hero section -->
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide3" class="btn btn-circle">❮</a> 
+                      <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+                 
+                </div>
+              
+                 <!-- banner card add -->
+           
+
+              </section>
+              <section class="absolute max-w-[850px] mx-auto  ">
+                <div class="-mt-24 ml-56 s:hidden z-20 bg-amber-300 flex p-5 items-center rounded-xl shadow-lg">
+                    <div class="flex-1 text-center">
+                      <img src="./images/fruit1.png" alt="">
+                      <p class="text-center">grape</p>
+                    </div>
+                    <div class="flex-1 ">
+                      <img src="./images/fruit2.png" alt="">
+                      <p>orang</p>
+                    </div>
+                    <div class="flex-1 ">
+                      <img src="./images/fruit3.png" alt="">
+                      <p>Mango</p>
+                    </div>
+                    <div class="flex-1 ">
+                      <img src="./images/fruit4.png" alt="">
+                      <p>Strawberry</p>
+                    </div>
+                    <div class="flex-1 ">
+                      <img src="./images/fruit5.png" alt="">
+                      <p>Mango</p>
+                    </div>
+        
+                  </div>
+              </section>
     </header>
 
     <main>
